@@ -42,5 +42,5 @@ def roman(string):
     """Sum the list"""
     Sum  = sum(new_list)
     return Sum
-print(roman("xl"))
+print(roman("LXX"))
 
