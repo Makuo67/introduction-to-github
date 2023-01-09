@@ -12,7 +12,7 @@ class TestRoman(unittest.TestCase):
         self.assertEqual(roman("mmxiv"), 2014)
         self.assertEqual(roman("xl"), 40)
 
-
+        """Tests for invalid numerals"""
         with self.assertRaises(ValueError):
             roman("XS")
 
